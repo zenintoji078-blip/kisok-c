@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kisok c | Developer Portfolio</title>
+    <meta name="description"
+        content="Professional portfolio of kisok c, showcasing frontend development, UI/UX designs, web applications, and programming experience.">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span>kisok</span><span class="gradient-text">c</span>
+                <span class="logo-dot"></span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Theme Switcher -->
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="sun-icon" data-lucide="sun"></i>
+                    <i class="moon-icon" data-lucide="moon"></i>
+                </button>
+
+                <!-- Resume Download CTA -->
+                <a href="#" class="btn btn-secondary btn-download" style="padding: 10px 20px; font-size: 0.85rem;"
+                    download>
+                    <i data-lucide="download" style="width: 16px; height: 16px;"></i> Resume
+                </a>
+
+                <!-- Mobile Menu Button -->
+                <div class="mobile-nav-toggle" id="menu-toggle">
+                    <i data-lucide="menu"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content reveal">
+                <div class="hero-tagline">
+                    <i data-lucide="sparkles" style="width: 18px; height: 18px;"></i> Available for Internships
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm kisok c <span class="gradient-text">kisok c</span><br>
+                    I am a web developer<span id="typing-text" class="typing-text"></span>
+                </h1>
+                <p class="hero-description">
+                    Building premium, high-performance web applications with clean code and outstanding user interfaces.
+                    Let's create something extraordinary.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#projects" class="btn btn-primary">
+                        View Work <i data-lucide="arrow-right" style="width: 18px; height: 18px;"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="hero-socials">
+                    <span class="hero-socials-label">Connect:</span>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="icon-btn"
+                        aria-label="GitHub">
+                        <i data-lucide="github"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="icon-btn"
+                        aria-label="LinkedIn">
+                        <i data-lucide="linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="icon-btn"
+                        aria-label="Twitter">
+                        <i data-lucide="twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-graphic reveal">
+                <div class="graphic-bg"></div>
+                <div class="graphic-card glass-panel">
+                    <div class="graphic-header">
+                        <div class="graphic-dots">
+                            <span class="graphic-dot dot-1"></span>
+                            <span class="graphic-dot dot-2"></span>
+                            <span class="graphic-dot dot-3"></span>
+                        </div>
+                        <i data-lucide="terminal" style="width: 16px; height: 16px; color: var(--text-muted);"></i>
+                    </div>
+                    <div class="graphic-content">
+                        <pre class="graphic-code-snippet"><code><span class="code-keyword">const</span> <span class="code-variable">developer</span> = {
+  name: <span class="code-string">'kisok'</span>,
+  skills: [<span class="code-string">'React'</span>, <span class="code-string">'JS'</span>, <span class="code-string">'CSS'</span>],
+  passionate: <span class="code-keyword">true</span>,
+  code: () => <span class="code-string">'☕'</span>
+};</code></pre>
+                    </div>
+                    <div class="graphic-stats">
+                        <div class="graphic-stat-box">
+                            <div class="stat-value">3.9</div>
+                            <div class="stat-label">CGPA</div>
+                        </div>
+                        <div class="graphic-stat-box">
+                            <div class="stat-value">12+</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">Introduction</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-details reveal">
+                    <p class="about-text">
+                        I am currently studying BCA, focusing heavily on modern web methodologies and user experience
+                        design. I love bridging the gap between clean back-end architectures and beautiful, responsive
+                        front-end layouts.
+                    </p>
+                    <p class="about-text">
+                        With multiple academic projects and internships completed, I have developed strong skills in
+                        solving complex layouts, optimizing script executions, and writing clean, maintainable systems.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-card glass-panel">
+                            <div class="highlight-icon">
+                                <i data-lucide="code-2"></i>
+                            </div>
+                            <div>
+                                <h3 class="highlight-title">Front-End</h3>
+                                <p class="highlight-desc">Component structures, state pipelines, responsive UI</p>
+                            </div>
+                        </div>
+                        <div class="highlight-card glass-panel">
+                            <div class="highlight-icon">
+                                <i data-lucide="database"></i>
+                            </div>
+                            <div>
+                                <h3 class="highlight-title">Back-End</h3>
+                                <p class="highlight-desc">Rest APIs, database operations, structure modeling</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-card glass-panel reveal">
+                    <h3 class="skills-title">
+                        <i data-lucide="cpu" style="color: var(--primary);"></i> Tech Stack & Tools
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-badge">
+                            <i data-lucide="blocks"></i>
+                            <span class="skill-name">HTML5</span>
+                        </div>
+                        <div class="skill-badge">
+                            <i data-lucide="palette"></i>
+                            <span class="skill-name">CSS3</span>
+                        </div>
+                        <div class="skill-badge">
+                            <i data-lucide="braces"></i>
+                            <span class="skill-name">JavaScript</span>
+                        </div>
+                        <div class="skill-badge">
+                            <i data-lucide="atom"></i>
+                            <span class="skill-name">React</span>
+                        </div>
+                        <div class="skill-badge">
+                            <i data-lucide="server"></i>
+                            <span class="skill-name">NodeJS</span>
+                        </div>
+                        <div class="skill-badge">
+                            <i data-lucide="terminal"></i>
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <div class="skill-badge">
+                            <i data-lucide="git-branch"></i>
+                            <span class="skill-name">Git & Github</span>
+                        </div>
+                        <div class="skill-badge">
+                            <i data-lucide="figma"></i>
+                            <span class="skill-name">Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">Career Path</span>
+                <h2 class="section-title">My Journey</h2>
+            </div>
+
+            <div class="timeline-container">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item left">
+                    <div class="timeline-card glass-panel">
+                        <span class="timeline-date">Jan 2026 - Present</span>
+                        <h3 class="timeline-title">Software Developer Intern</h3>
+                        <div class="timeline-org">
+                            <i data-lucide="building-2" style="width: 16px; height: 16px;"></i> TechCorp Systems
+                        </div>
+                        <p class="timeline-desc">
+                            Developing and maintaining web interfaces, modernizing CSS style frameworks, and
+                            implementing modular components. Optimizing page loading speeds by 25%.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item right">
+                    <div class="timeline-card glass-panel">
+                        <span class="timeline-date">Jun 2025 - Dec 2025</span>
+                        <h3 class="timeline-title">UI/UX Engineer Intern</h3>
+                        <div class="timeline-org">
+                            <i data-lucide="building-2" style="width: 16px; height: 16px;"></i> PixelCraft Studio
+                        </div>
+                        <p class="timeline-desc">
+                            Designed high-fidelity mockups in Figma, built interactive client prototypes, and
+                            transitioned layouts into production-ready HTML/CSS structures.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item left">
+                    <div class="timeline-card glass-panel">
+                        <span class="timeline-date">2022 - 2026</span>
+                        <h3 class="timeline-title">Bachelor of Computer Applications (BCA)</h3>
+                        <div class="timeline-org">
+                            <i data-lucide="graduation-cap" style="width: 16px; height: 16px;"></i> State University
+                        </div>
+                        <p class="timeline-desc">
+                            Specializing in Software Development and Human-Computer Interaction. Member of the Computer
+                            Science Society. Recipient of Academic Excellence Scholarship.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">Portfolio Catalog</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+
+            <!-- Project Filters -->
+            <div class="project-filters reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid reveal">
+
+                <!-- Project Card 1 -->
+                <div class="project-card glass-panel" data-category="web">
+                    <div class="project-img-wrapper">
+                        <!-- Temporary CSS styled card representation when images don't load -->
+                        <div
+                            style="width: 100%; height: 100%; background: linear-gradient(135deg, #4f46e5, #818cf8); display: flex; align-items: center; justify-content: center; color: white; font-family: var(--font-heading); font-weight: 700; font-size: 1.5rem;">
+                            Apex Tasker
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Draggable</span>
+                            <span class="project-tag">LocalStorage</span>
+                        </div>
+                        <h3 class="project-title">Apex Task Manager</h3>
+                        <p class="project-desc">
+                            A highly interactive Kanban board application with card sorting, drag-and-drop mechanics,
+                            categories, and calendar deadlines.
+                        </p>
+                        <div class="project-footer-links">
+                            <a href="https://github.com" target="_blank" rel="noopener" class="project-link">
+                                <i data-lucide="github" style="width: 16px; height: 16px;"></i> Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i data-lucide="external-link" style="width: 16px; height: 16px;"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card glass-panel" data-category="web">
+                    <div class="project-img-wrapper">
+                        <div
+                            style="width: 100%; height: 100%; background: linear-gradient(135deg, #7c3aed, #a78bfa); display: flex; align-items: center; justify-content: center; color: white; font-family: var(--font-heading); font-weight: 700; font-size: 1.5rem;">
+                            FitFlow Hub
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">ChartsJS</span>
+                            <span class="project-tag">PWA</span>
+                        </div>
+                        <h3 class="project-title">FitFlow Analytics</h3>
+                        <p class="project-desc">
+                            A tracking dashboard visualizing metrics like step count, caloric burning, sleep quality,
+                            and active heart rate graphs.
+                        </p>
+                        <div class="project-footer-links">
+                            <a href="https://github.com" target="_blank" rel="noopener" class="project-link">
+                                <i data-lucide="github" style="width: 16px; height: 16px;"></i> Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i data-lucide="external-link" style="width: 16px; height: 16px;"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card glass-panel" data-category="design">
+                    <div class="project-img-wrapper">
+                        <div
+                            style="width: 100%; height: 100%; background: linear-gradient(135deg, #db2777, #f472b6); display: flex; align-items: center; justify-content: center; color: white; font-family: var(--font-heading); font-weight: 700; font-size: 1.5rem;">
+                            Zenith Shop
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">Figma</span>
+                            <span class="project-tag">UI/UX</span>
+                            <span class="project-tag">Prototypes</span>
+                        </div>
+                        <h3 class="project-title">Zenith eCommerce</h3>
+                        <p class="project-desc">
+                            A modern minimalist shopping interface redesign featuring smooth transitions,
+                            micro-interactions, and glassmorphic aesthetic panels.
+                        </p>
+                        <div class="project-footer-links">
+                            <a href="#" class="project-link">
+                                <i data-lucide="figma" style="width: 16px; height: 16px;"></i> Design File
+                            </a>
+                            <a href="#" class="project-link">
+                                <i data-lucide="external-link" style="width: 16px; height: 16px;"></i> Prototype
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">Reach Out</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Info Panels -->
+                <div class="contact-info-panel reveal">
+                    <p class="contact-intro-text">
+                        If you have an internship opportunity, a project proposal, or just want to connect, feel free to
+                        drop me a message. I'm always open to talking tech!
+                    </p>
+
+                    <div class="contact-methods">
+                        <!-- Method 1 -->
+                        <div class="contact-method-card glass-panel">
+                            <div class="contact-method-icon">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div>
+                                <div class="contact-method-title">Email Me</div>
+                                <a href="mailto:vishvak296@gmail.com"
+                                    class="contact-method-value">zenintoji078@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <!-- Method 2 -->
+                        <div class="contact-method-card glass-panel">
+                            <div class="contact-method-icon">
+                                <i data-lucide="map-pin"></i>
+                            </div>
+                            <div>
+                                <div class="contact-method-title">Location</div>
+                                <div class="contact-method-value">tharangambadi, Tamil Nadu, India</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form Card -->
+                <div class="contact-form-card glass-panel reveal">
+                    <h3 class="form-title">Send Message</h3>
+                    <form id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" class="form-input" placeholder="Your Name">
+                            <div class="error-msg">Name is required</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" class="form-input" placeholder="your.email@example.com">
+                            <div class="error-msg">Email is required</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" class="form-input" placeholder="How can I help you?">
+                            <div class="error-msg">Subject is required</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" class="form-textarea"
+                                placeholder="Write your message details here..."></textarea>
+                            <div class="error-msg">Message is required</div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            Send Message <i data-lucide="send" style="width: 16px; height: 16px;"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <span>kisok</span><span class="gradient-text">c</span><span class="logo-dot"></span>
+            </div>
+            <p class="footer-copyright">&copy; 2026 kisok c. All rights reserved.
+            </p>
+            <div class="footer-socials">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="icon-btn"
+                    aria-label="GitHub">
+                    <i data-lucide="github" style="width: 18px; height: 18px;"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="icon-btn"
+                    aria-label="LinkedIn">
+                    <i data-lucide="linkedin" style="width: 18px; height: 18px;"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notifications Area -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Lucide Icons Library (Script package loader) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        // Initialize lucide icons right away
+        lucide.createIcons();
+    </script>
+    <!-- Application Logic Script -->
+    <script src="app.js"></script>
+</body>
+
+</html>
